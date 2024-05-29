@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Pristina";
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.dark{
+    background: #85572e;
+}
+.light{
+    background: #fbc599;
+}
+.square{
+    height: 120px;
+    width: 120px;
+}
+.white{
+    color:#fff;
+}
+.black{
+    transform: rotate(180deg);
+}
+.piece{
+    font-size: 80px;
+    display: flex;
+    line-height: 135px;
+    justify-content: center;
+}
+.flipped{
+    transform: rotate(180deg);
+}
